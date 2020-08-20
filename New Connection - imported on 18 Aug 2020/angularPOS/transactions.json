@@ -1,0 +1,629 @@
+{ 
+    "_id" : ObjectId("5f3294ab63bbab7e54a2f74b"), 
+    "products" : [
+        {
+            "id" : "5f291c54ac4c07be3ca9782d", 
+            "prodName" : "Nescafé", 
+            "cost" : NumberInt(10), 
+            "price" : NumberInt(15), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(15), 
+            "profit" : NumberInt(5)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(15), 
+    "vatAmount" : 1.8, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 16.8, 
+    "cash" : NumberInt(20), 
+    "changed" : 3.2, 
+    "dateCreated" : ISODate("2020-08-11T12:52:59.149+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f33cceb7da8978530cf3b73"), 
+    "products" : [
+        {
+            "id" : "5f291ba0ac4c07be3ca9781d", 
+            "prodName" : "Chicken Wing", 
+            "cost" : NumberInt(140), 
+            "price" : NumberInt(189), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(189), 
+            "profit" : NumberInt(49)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(189), 
+    "vatAmount" : 22.68, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 211.68, 
+    "cash" : NumberInt(250), 
+    "changed" : 38.32, 
+    "dateCreated" : ISODate("2020-08-12T11:05:15.953+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3945e2fdf03f159c170e4a"), 
+    "products" : [
+        {
+            "id" : "5f291ba0ac4c07be3ca9781d", 
+            "prodName" : "Chicken Wing", 
+            "cost" : NumberInt(140), 
+            "price" : NumberInt(189), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(189), 
+            "profit" : NumberInt(49)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(189), 
+    "vatAmount" : 22.68, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 211.68, 
+    "cash" : NumberInt(250), 
+    "changed" : 38.32, 
+    "dateCreated" : ISODate("2020-08-16T14:42:42.661+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39e3b8fdf03f159c170e53"), 
+    "products" : [
+        {
+            "id" : "5f291ba8ac4c07be3ca9781e", 
+            "prodName" : "Indian Currys", 
+            "cost" : NumberInt(100), 
+            "price" : NumberInt(120), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(120), 
+            "profit" : NumberInt(20)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(120), 
+    "vatAmount" : 14.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 134.4, 
+    "cash" : 134.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T01:56:08.585+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39e45efdf03f159c170e54"), 
+    "products" : [
+        {
+            "id" : "5f291c54ac4c07be3ca9782d", 
+            "prodName" : "Nescafé", 
+            "cost" : NumberInt(10), 
+            "price" : NumberInt(15), 
+            "qty" : NumberInt(3), 
+            "subTotal" : NumberInt(45), 
+            "profit" : NumberInt(15)
+        }
+    ], 
+    "user" : ObjectId("5f2b98405c556dd8887239bb"), 
+    "vatableSales" : NumberInt(45), 
+    "vatAmount" : 5.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 50.4, 
+    "cash" : 50.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T01:58:54.306+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39e68dfdf03f159c170e55"), 
+    "products" : [
+        {
+            "id" : "5f291ba8ac4c07be3ca9781e", 
+            "prodName" : "Indian Currys", 
+            "cost" : NumberInt(100), 
+            "price" : NumberInt(120), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(120), 
+            "profit" : NumberInt(20)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(120), 
+    "vatAmount" : 14.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 134.4, 
+    "cash" : 134.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T02:08:13.374+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39e94dfdf03f159c170e56"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(180), 
+    "vatAmount" : 21.6, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 201.6, 
+    "cash" : 201.6, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T02:19:57.240+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39e989fdf03f159c170e57"), 
+    "products" : [
+        {
+            "id" : "5f291ba8ac4c07be3ca9781e", 
+            "prodName" : "Indian Currys", 
+            "cost" : NumberInt(100), 
+            "price" : NumberInt(120), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(120), 
+            "profit" : NumberInt(20)
+        }
+    ], 
+    "user" : ObjectId("5f2b98405c556dd8887239bb"), 
+    "vatableSales" : NumberInt(120), 
+    "vatAmount" : 14.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 134.4, 
+    "cash" : 134.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T02:20:57.671+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39eae4fdf03f159c170e58"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }
+    ], 
+    "user" : ObjectId("5f2b98405c556dd8887239bb"), 
+    "vatableSales" : NumberInt(180), 
+    "vatAmount" : 21.6, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 201.6, 
+    "cash" : 201.6, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T02:26:44.209+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39eb40fdf03f159c170e59"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }
+    ], 
+    "user" : ObjectId("5f2b98405c556dd8887239bb"), 
+    "vatableSales" : NumberInt(180), 
+    "vatAmount" : 21.6, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 201.6, 
+    "cash" : 201.6, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T02:28:16.027+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f39ed05fdf03f159c170e5a"), 
+    "products" : [
+        {
+            "id" : "5f291c54ac4c07be3ca9782d", 
+            "prodName" : "Nescafé", 
+            "cost" : NumberInt(10), 
+            "price" : NumberInt(15), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(15), 
+            "profit" : NumberInt(5)
+        }
+    ], 
+    "user" : ObjectId("5f2b98405c556dd8887239bb"), 
+    "vatableSales" : NumberInt(15), 
+    "vatAmount" : 1.8, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 16.8, 
+    "cash" : 16.8, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T02:35:49.123+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a27d2fdf03f159c170ea5"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(180), 
+    "vatAmount" : 21.6, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 201.6, 
+    "cash" : 201.6, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T06:46:42.396+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a54a5fdf03f159c170ef1"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }, 
+        {
+            "id" : "5f291c54ac4c07be3ca9782d", 
+            "prodName" : "Nescafé", 
+            "cost" : NumberInt(10), 
+            "price" : NumberInt(15), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(15), 
+            "profit" : NumberInt(5)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(195), 
+    "vatAmount" : 23.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 218.4, 
+    "cash" : 218.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T09:57:57.035+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a54b8fdf03f159c170ef2"), 
+    "products" : [
+        {
+            "id" : "5f291bb1ac4c07be3ca9781f", 
+            "prodName" : "Mint Chocolate Chip", 
+            "cost" : NumberInt(120), 
+            "price" : NumberInt(135), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(135), 
+            "profit" : NumberInt(15)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(135), 
+    "vatAmount" : 16.2, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 151.2, 
+    "cash" : 151.2, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T09:58:16.207+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a54befdf03f159c170ef3"), 
+    "products" : [
+        {
+            "id" : "5f291bcbac4c07be3ca97822", 
+            "prodName" : "Caramel Ice Cream", 
+            "cost" : NumberInt(190), 
+            "price" : NumberInt(210), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(210), 
+            "profit" : NumberInt(20)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(210), 
+    "vatAmount" : 25.2, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 235.2, 
+    "cash" : 235.2, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T09:58:22.682+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a54e9fdf03f159c170ef4"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(180), 
+    "vatAmount" : 21.6, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 201.6, 
+    "cash" : 201.6, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T09:59:05.836+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a5505fdf03f159c170ef5"), 
+    "products" : [
+        {
+            "id" : "5f291ba8ac4c07be3ca9781e", 
+            "prodName" : "Indian Currys", 
+            "cost" : NumberInt(100), 
+            "price" : NumberInt(120), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(120), 
+            "profit" : NumberInt(20)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(120), 
+    "vatAmount" : 14.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 134.4, 
+    "cash" : 134.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T09:59:33.293+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a5667fdf03f159c170ef6"), 
+    "products" : [
+        {
+            "id" : "5f291c54ac4c07be3ca9782d", 
+            "prodName" : "Nescafé", 
+            "cost" : NumberInt(10), 
+            "price" : NumberInt(15), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(15), 
+            "profit" : NumberInt(5)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(15), 
+    "vatAmount" : 1.8, 
+    "discount" : 3.36, 
+    "grandTotal" : 13.44, 
+    "cash" : 13.44, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T10:05:27.985+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a574efdf03f159c170ef7"), 
+    "products" : [
+        {
+            "id" : "5f291c4cac4c07be3ca9782c", 
+            "prodName" : "Tropicana", 
+            "cost" : NumberInt(25), 
+            "price" : NumberInt(35), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(35), 
+            "profit" : NumberInt(10)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(35), 
+    "vatAmount" : 4.2, 
+    "discount" : 7.84, 
+    "grandTotal" : 31.36, 
+    "cash" : 31.36, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T10:09:18.844+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3a7349d1862a4fc02afb9a"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(180), 
+    "vatAmount" : 21.6, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 201.6, 
+    "cash" : 201.6, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-17T12:08:41.569+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3b5c1dd1862a4fc02afbd2"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(180), 
+            "profit" : NumberInt(30)
+        }, 
+        {
+            "id" : "5f291bdaac4c07be3ca97824", 
+            "prodName" : "Rainbow Sherbet", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(190), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(190), 
+            "profit" : NumberInt(40)
+        }, 
+        {
+            "id" : "5f291be8ac4c07be3ca97826", 
+            "prodName" : "Strawberry Cheesecake", 
+            "cost" : NumberInt(200), 
+            "price" : NumberInt(250), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(250), 
+            "profit" : NumberInt(50)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(620), 
+    "vatAmount" : 74.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 694.4, 
+    "cash" : 694.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-18T04:42:05.143+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3b5c49d1862a4fc02afbd3"), 
+    "products" : [
+        {
+            "id" : "5f2919b1ac4c07be3ca9781b", 
+            "prodName" : "French Vanilla", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(180), 
+            "qty" : NumberInt(3), 
+            "subTotal" : NumberInt(540), 
+            "profit" : NumberInt(90)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(540), 
+    "vatAmount" : 64.8, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 604.8, 
+    "cash" : 604.8, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-18T04:42:49.452+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3c796cf3c90988441b8740"), 
+    "products" : [
+        {
+            "id" : "5f291c07ac4c07be3ca9782a", 
+            "prodName" : "Pepsi 12", 
+            "cost" : NumberInt(10), 
+            "price" : NumberInt(20), 
+            "qty" : NumberInt(2), 
+            "subTotal" : NumberInt(40), 
+            "profit" : NumberInt(20)
+        }, 
+        {
+            "id" : "5f291c4cac4c07be3ca9782c", 
+            "prodName" : "Tropicana", 
+            "cost" : NumberInt(25), 
+            "price" : NumberInt(35), 
+            "qty" : NumberInt(11), 
+            "subTotal" : NumberInt(385), 
+            "profit" : NumberInt(110)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(425), 
+    "vatAmount" : NumberInt(51), 
+    "discount" : NumberInt(0), 
+    "grandTotal" : NumberInt(476), 
+    "cash" : NumberInt(476), 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-19T00:59:24.052+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3c79d2f3c90988441b8741"), 
+    "products" : [
+        {
+            "id" : "5f291be8ac4c07be3ca97826", 
+            "prodName" : "Strawberry Cheesecake", 
+            "cost" : NumberInt(200), 
+            "price" : NumberInt(250), 
+            "qty" : NumberInt(2), 
+            "subTotal" : NumberInt(500), 
+            "profit" : NumberInt(100)
+        }
+    ], 
+    "user" : ObjectId("5f2b98405c556dd8887239bb"), 
+    "vatableSales" : NumberInt(500), 
+    "vatAmount" : NumberInt(60), 
+    "discount" : NumberInt(0), 
+    "grandTotal" : NumberInt(560), 
+    "cash" : NumberInt(560), 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-19T01:01:06.361+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f3c7adcf3c90988441b8742"), 
+    "products" : [
+        {
+            "id" : "5f2919b9ac4c07be3ca9781c", 
+            "prodName" : "Chocolate Chip", 
+            "cost" : NumberInt(150), 
+            "price" : NumberInt(160), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(160), 
+            "profit" : NumberInt(10)
+        }, 
+        {
+            "id" : "5f291ba8ac4c07be3ca9781e", 
+            "prodName" : "Indian Currys", 
+            "cost" : NumberInt(100), 
+            "price" : NumberInt(120), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(120), 
+            "profit" : NumberInt(20)
+        }, 
+        {
+            "id" : "5f291c54ac4c07be3ca9782d", 
+            "prodName" : "Nescafé", 
+            "cost" : NumberInt(10), 
+            "price" : NumberInt(15), 
+            "qty" : NumberInt(1), 
+            "subTotal" : NumberInt(15), 
+            "profit" : NumberInt(5)
+        }
+    ], 
+    "user" : ObjectId("5f2b724da51010c670d768e0"), 
+    "vatableSales" : NumberInt(295), 
+    "vatAmount" : 35.4, 
+    "discount" : NumberInt(0), 
+    "grandTotal" : 330.4, 
+    "cash" : 330.4, 
+    "changed" : NumberInt(0), 
+    "dateCreated" : ISODate("2020-08-19T01:05:32.262+0000"), 
+    "__v" : NumberInt(0)
+}

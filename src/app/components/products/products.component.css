@@ -1,0 +1,40 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-container>div {
+  background-color: #343a40;
+  font-family: verdana;
+  color: white;
+  width: 170px;
+  height: 140px;
+  padding: 1em;
+  margin: .5em;
+  cursor: pointer;
+  position: relative;
+}
+
+.product-info {
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  bottom: 1em;
+}
+
+.product-info p {
+  margin: 0px;
+  color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

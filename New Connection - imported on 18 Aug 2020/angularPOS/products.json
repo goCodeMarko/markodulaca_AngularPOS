@@ -1,0 +1,200 @@
+{ 
+    "_id" : ObjectId("5f2909b7c71b2bb5ac96dbdc"), 
+    "prodName" : "Cookies and Cream", 
+    "qty" : NumberInt(26), 
+    "cost" : NumberInt(100), 
+    "price" : NumberInt(152), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T07:09:43.148+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f2919b1ac4c07be3ca9781b"), 
+    "prodName" : "French Vanilla", 
+    "qty" : NumberInt(42), 
+    "cost" : NumberInt(150), 
+    "price" : NumberInt(180), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:17:53.909+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f2919b9ac4c07be3ca9781c"), 
+    "prodName" : "Chocolate Chip", 
+    "qty" : NumberInt(6), 
+    "cost" : NumberInt(150), 
+    "price" : NumberInt(160), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:18:01.070+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291ba0ac4c07be3ca9781d"), 
+    "prodName" : "Chicken Wing", 
+    "qty" : NumberInt(42), 
+    "cost" : NumberInt(140), 
+    "price" : NumberInt(189), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:26:08.876+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291ba8ac4c07be3ca9781e"), 
+    "prodName" : "Indian Currys", 
+    "qty" : NumberInt(42), 
+    "cost" : NumberInt(100), 
+    "price" : NumberInt(120), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:26:16.322+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bb1ac4c07be3ca9781f"), 
+    "prodName" : "Mint Chocolate Chip", 
+    "qty" : NumberInt(12), 
+    "cost" : NumberInt(120), 
+    "price" : NumberInt(135), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:26:25.763+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bb8ac4c07be3ca97820"), 
+    "prodName" : "Peanut Butter Cup", 
+    "qty" : NumberInt(19), 
+    "cost" : NumberInt(130), 
+    "price" : NumberInt(144), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:26:32.768+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bc4ac4c07be3ca97821"), 
+    "prodName" : "Rocky Road", 
+    "qty" : NumberInt(29), 
+    "cost" : NumberInt(135), 
+    "price" : NumberInt(170), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:26:44.683+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bcbac4c07be3ca97822"), 
+    "prodName" : "Caramel Ice Cream", 
+    "qty" : NumberInt(29), 
+    "cost" : NumberInt(190), 
+    "price" : NumberInt(210), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:26:51.879+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bd3ac4c07be3ca97823"), 
+    "prodName" : "Mint Oreo Cookie", 
+    "qty" : NumberInt(14), 
+    "cost" : NumberInt(150), 
+    "price" : NumberInt(180), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:26:59.529+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bdaac4c07be3ca97824"), 
+    "prodName" : "Rainbow Sherbet", 
+    "qty" : NumberInt(17), 
+    "cost" : NumberInt(150), 
+    "price" : NumberInt(190), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:27:06.185+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291be0ac4c07be3ca97825"), 
+    "prodName" : "Moose Tracks", 
+    "qty" : NumberInt(25), 
+    "cost" : NumberInt(180), 
+    "price" : NumberInt(230), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:27:12.680+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291be8ac4c07be3ca97826"), 
+    "prodName" : "Strawberry Cheesecake", 
+    "qty" : NumberInt(4), 
+    "cost" : NumberInt(200), 
+    "price" : NumberInt(250), 
+    "category" : "food", 
+    "dateCreated" : ISODate("2020-08-04T08:27:20.632+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bf1ac4c07be3ca97827"), 
+    "prodName" : "Red Bull", 
+    "qty" : NumberInt(29), 
+    "cost" : NumberInt(48), 
+    "price" : NumberInt(89), 
+    "category" : "drinks", 
+    "dateCreated" : ISODate("2020-08-04T08:27:29.047+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bf8ac4c07be3ca97828"), 
+    "prodName" : "Coca-Cola 12", 
+    "qty" : NumberInt(32), 
+    "cost" : NumberInt(12), 
+    "price" : NumberInt(20), 
+    "category" : "drinks", 
+    "dateCreated" : ISODate("2020-08-04T08:27:36.656+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291bffac4c07be3ca97829"), 
+    "prodName" : "Coca-Cola 7.5", 
+    "qty" : NumberInt(51), 
+    "cost" : NumberInt(10), 
+    "price" : NumberInt(15), 
+    "category" : "drinks", 
+    "dateCreated" : ISODate("2020-08-04T08:27:43.301+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291c07ac4c07be3ca9782a"), 
+    "prodName" : "Pepsi 12", 
+    "qty" : NumberInt(4), 
+    "cost" : NumberInt(10), 
+    "price" : NumberInt(20), 
+    "category" : "drinks", 
+    "dateCreated" : ISODate("2020-08-04T08:27:51.293+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291c10ac4c07be3ca9782b"), 
+    "prodName" : "Pepsi 7.5", 
+    "qty" : NumberInt(21), 
+    "cost" : NumberInt(9), 
+    "price" : NumberInt(15), 
+    "category" : "drinks", 
+    "dateCreated" : ISODate("2020-08-04T08:28:00.974+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291c4cac4c07be3ca9782c"), 
+    "prodName" : "Tropicana", 
+    "qty" : NumberInt(18), 
+    "cost" : NumberInt(25), 
+    "price" : NumberInt(35), 
+    "category" : "drinks", 
+    "dateCreated" : ISODate("2020-08-04T08:29:00.820+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f291c54ac4c07be3ca9782d"), 
+    "prodName" : "Nescafé", 
+    "qty" : NumberInt(68), 
+    "cost" : NumberInt(10), 
+    "price" : NumberInt(15), 
+    "category" : "drinks", 
+    "dateCreated" : ISODate("2020-08-04T08:29:08.929+0000"), 
+    "__v" : NumberInt(0)
+}

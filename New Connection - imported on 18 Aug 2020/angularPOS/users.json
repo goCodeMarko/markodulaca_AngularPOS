@@ -1,0 +1,26 @@
+{ 
+    "_id" : ObjectId("5f2b724da51010c670d768e0"), 
+    "fname" : "Patrick Marck", 
+    "mname" : "Divinagracia", 
+    "lname" : "Dulaca", 
+    "bdate" : ISODate("2020-05-07T16:00:00.000+0000"), 
+    "sex" : NumberInt(1), 
+    "userType" : "administrator", 
+    "username" : "markodulaca", 
+    "password" : "$2a$10$kIkNSHwcuBMREmf8tbUiQ.L5JyEYdQnhss1OAXdLHG9K.Urn4Auvi", 
+    "dateCreated" : ISODate("2020-08-06T03:00:29.686+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f2b98405c556dd8887239bb"), 
+    "fname" : "Jessa", 
+    "mname" : "", 
+    "lname" : "Arcillas", 
+    "bdate" : ISODate("1987-05-07T16:00:00.000+0000"), 
+    "sex" : NumberInt(0), 
+    "userType" : "staff", 
+    "username" : "jessaarcillas", 
+    "password" : "$2a$10$mABX9aHKDNakjYyz8Rg9euAbgFrHWBH7jiMTzVkleG/Ql6edR/uzS", 
+    "dateCreated" : ISODate("2020-08-06T05:42:24.162+0000"), 
+    "__v" : NumberInt(0)
+}

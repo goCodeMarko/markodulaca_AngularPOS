@@ -1,0 +1,77 @@
+<div class="product-container">
+
+  <div *ngFor="let product of filteredProducts;" (click)="openAddToCartModal(qtyForm, product)">
+    <div style=" text-align: center;">
+      <strong>{{product.prodName}} {{i}}</strong>
+      <br>
+      <div class="product-info">
+        {{voidItem()}}
+        <p for=""> {{product.price | currency: '‎₱'}}</p>
+        <p for="">Qty: {{product.qty}}</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <ng-template #qtyForm let-modal>
+    <div class="modal-body">
+      <div class="modal-header">
+        <h1 class="display-1" style="font-size:30px;">{{data.prodName}}</h1><br>
+        <span type="button" class="close" (click)="modal.dismiss()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </span>
+      </div>
+      <div style="padding:1em 0em 0em 0em;">
+        <label> {{data.price | currency : '‎₱'}}</label><br>
+        <label>Qty: {{data.qty}}</label>
+        <br>
+        <br>
+
+        <form [formGroup]="addToCartForm"
+          (ngSubmit)="addToCart({id: data._id,prodName: data.prodName,cost: data.cost, price: data.price, onHand: data.qty}, this.addToCartForm.value)">
+          <div class="row">
+            <div class="col-sm-3">
+
+              <span class="btn btn-danger btn-block btn-lg" *ngIf="this.addToCartForm.value.qty > 1"
+                (click)="minusQty();logValidationErrors()"><span class="fa fa-minus"></span></span>
+
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <div class="input-group mb-3">
+
+                  <input type="number" min="1" [max]="data.qty" class="form-control form-control-lg"
+                    aria-describedby="basic-addon2" id="qty" formControlName="qty" (blur)="logValidationErrors()"
+                    (input)="logValidationErrors()" (keypress)="qtyKeypress($event)">
+
+                  <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">Qty</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+
+              <span class="btn btn-success btn-block btn-lg" *ngIf="this.addToCartForm.value.qty < this.data.qty"
+                (click)="addQty();logValidationErrors()"><span class="fa fa-plus"></span></span>
+
+            </div>
+          </div>
+          <div>
+            <span class="text-danger" role="alert" *ngIf="this.formErrors.qty">
+              {{this.formErrors.qty}}
+            </span>
+          </div>
+          <br>
+
+          <button type="submit" class="btn btn-dark btn-block btn-lg"
+            [disabled]="this.addToCartForm.invalid || !this.data.qty || (this.data.qty - addToCartForm.value.qty) < 0"><span
+              class="fa fa-cart-plus fa-lg"></span></button>
+
+        </form>
+      </div>
+    </div>
+  </ng-template>
+</div>
